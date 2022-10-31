@@ -19,4 +19,4 @@ jobs:
         run: npm install -g surge
       
       - name: Deploy website on surge
-        run: surge ./ https://bustling-stream.surge.sh --token ${{ secrets.TEST_TOKEN}}
+        run: surge ./ grumpy-plastic1234.surge.sh/ --token ${{ secrets.TEST_TOKEN}}
